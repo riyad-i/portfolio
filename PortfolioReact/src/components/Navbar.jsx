@@ -7,7 +7,7 @@ export default function Navbar() {
 
         <>
         
-        <ul>
+        <ul className='Navbar'>
 
             <li><Link to={'/'}>Main</Link></li>
             <li><Link to={'/projects'}>Projects</Link></li>

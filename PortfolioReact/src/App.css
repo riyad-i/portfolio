@@ -1,3 +1,11 @@
+.Navbar {
+  display: flex;
+  background-color: lightsteelblue;
+  justify-content: space-around;
+  width: 100%;
+}
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

@@ -30,8 +30,14 @@ https://unsplash.com/
 
 # Stack Used
 
-HTML5, CSS, JavaScript
+HTML5, CSS, JavaScript, React
 
 # Live Site
 
-Neltlify Link : https://gilded-melba-88c607.netlify.app/
+Netlify Link : https://gilded-melba-88c607.netlify.app/
+
+
+# Planned Updates
+
+Add carousel to projects page displaying projects.
+Add viewable resume pdf on main page

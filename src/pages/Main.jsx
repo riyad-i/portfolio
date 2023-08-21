@@ -63,9 +63,10 @@ export default function Main(){
         Doloremque atque magni totam voluptate nulla et cum vero ullam animi, asperiores, placeat aspernatur iste assumenda labore accusamus sit eum veritatis, laboriosam amet nam repellendus! Ullam officia illo quos nobis!</p>
         <br/>
         <br/>
-        <br/>
         <img src="https://plus.unsplash.com/premium_photo-1681803624868-bdac42fa1267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bnljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"/>
 
+        <br/>
+        <br/>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, fugiat praesentium quia laborum ab corrupti dolores harum iure? Quaerat reprehenderit voluptatum recusandae. Numquam commodi veniam eaque adipisci autem a ipsum.
         Culpa, atque nostrum. Eum, fugit distinctio facere sapiente molestias aspernatur earum cumque soluta. Tempora quaerat saepe aut pariatur. Autem eligendi ad nemo eveniet. Commodi iusto obcaecati quaerat recusandae veniam culpa.
         Nemo quis debitis, recusandae expedita provident doloremque sapiente unde quam? Odit voluptatum earum dolorem iure! Nostrum, unde impedit dolores atque a iste ad quo voluptatum porro, nulla alias aliquid consequatur.

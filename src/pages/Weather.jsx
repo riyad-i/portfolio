@@ -30,6 +30,14 @@ export default function Weather(){
         
         <br/>
         {weather.current ? <img src={weather.current.weather_icons[0]}/>: null }
+
+        <br/>
+        <br/>
+        <br/>
+
+        { weather.current && weather.current.weather_descriptions[0] == 'Partly cloudy' ? <img src="https://images.unsplash.com/photo-1597621864521-93dfdb10c6b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFydGx5JTIwY2xvdWR5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" height={300}/> : null }
+        { weather.current && weather.current.weather_descriptions[0] == 'Clear' ? <img src="https://images.unsplash.com/photo-1616249807402-9dae436108cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2xlYXIlMjB3ZWF0aGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" height={300}/> : null }
+        { weather.current && weather.current.weather_descriptions[0] == 'Sunny' ? <img src="https://images.unsplash.com/photo-1598965914211-6ec6872593a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHN1bnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" height={300}/> : null }
         </>
     )
 

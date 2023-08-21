@@ -46,7 +46,7 @@ export default function Weather(){
 
         <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Enter City Name" value={formData} onChange={handleChange}></input>
-            <button>Search</button>
+            <button style={{backgroundColor: 'greenyellow'}}>Search</button>
         </form>
 
 

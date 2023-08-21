@@ -18,6 +18,10 @@
   height: 2.5rem;  
 }
 
+.Footer a{
+  color: white;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

@@ -40,4 +40,7 @@ Netlify Link : https://gilded-melba-88c607.netlify.app/
 # Planned Updates
 
 Add carousel to projects page displaying projects.
-Add viewable resume pdf on main page
+
+Add viewable resume pdf on main page.
+
+Get user's location automatically on weather page.

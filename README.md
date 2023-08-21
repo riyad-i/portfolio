@@ -10,3 +10,14 @@ Currently, two official plugins are available:
 # Api
 
 Api documentation : https://weatherstack.com/
+
+
+
+# Icons 
+
+https://fontawesome.com/
+
+
+# Pdf viewer
+
+https://react-pdf.org/

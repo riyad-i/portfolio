@@ -22,6 +22,12 @@
   color: white;
 }
 
+.Icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

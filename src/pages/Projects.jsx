@@ -26,6 +26,11 @@ export default function Projects(){
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSONWh6CJ57cgjmrhxRtoOjNGJ_jAyZidiuVQ&usqp=CAU" alt="python" height={100}/>
             {/* <FontAwesomeIcon icon={faPython}> </FontAwesomeIcon> */}
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         </>
     )
 

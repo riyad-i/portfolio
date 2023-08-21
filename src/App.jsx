@@ -5,6 +5,7 @@ import { Route, Routes, Navigate } from 'react-router-dom'
 import Projects from './pages/Projects'
 import Weather from './pages/Weather'
 import Main from './pages/Main'
+import Footer from './components/Footer.jsx'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/weather' element={<Weather/>}/>
         <Route path='*' element={<Navigate to='/'/>}/> 
       </Routes>
+      <Footer/>
     </>
   )
 }

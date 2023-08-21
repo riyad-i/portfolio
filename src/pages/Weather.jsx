@@ -14,7 +14,7 @@ export default function Weather(){
     }
 
     const getWeather= async() =>{
-        const res = await fetch(`https://api.weatherstack.com/current?access_key=${key}&query=New%20York`)
+        const res = await fetch(`http://api.weatherstack.com/current?access_key=${key}&query=New%20York`)
         const data = await res.json()
         console.log(data);
         setWeather(data)

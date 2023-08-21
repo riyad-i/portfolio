@@ -13,19 +13,44 @@ export default function Weather(){
         return (celsius * 9/5) + 32
     }
 
-    const getWeather= async() =>{
-        const res = await fetch(`http://api.weatherstack.com/current?access_key=${key}&query=New%20York`)
-        const data = await res.json()
-        console.log(data);
-        setWeather(data)
+    const getWeather= async(formData) =>{
+        // const res = await fetch(`http://api.weatherstack.com/current?access_key=${key}&query=New%20York`)
+        try {
+            const res = await fetch(`http://api.weatherstack.com/current?access_key=${key}&query=${formData}`)
+            const data = await res.json()
+            console.log(data);
+            setWeather(data)
+        } catch (error) {
+            console.log(error);
+        }
     }
 
     useEffect(()=> {getWeather()},[])
 
+    const [formData, setFormData] = useState('')
+
+    const handleChange = (e) =>{
+        e.preventDefault()
+        setFormData(e.target.value)
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        getWeather(formData)
+        setFormData('')
+    }
+
     return (
         <>
         <h1>Weather App</h1>
-        {weather.current ? <h3> Currently {weather.current.weather_descriptions[0]} and {conversion(weather.current.temperature)} Degrees Fahrenheit in New York</h3> : <h3>Loading Weather</h3>}
+
+        <form onSubmit={handleSubmit}>
+            <input type="text" placeholder="Enter City Name" value={formData} onChange={handleChange}></input>
+            <button>Search</button>
+        </form>
+
+
+        {weather.current ? <h3> Currently {weather.current.weather_descriptions[0]} and {conversion(weather.current.temperature)} Degrees Fahrenheit in {weather.location.name}</h3> : <h3>Loading Weather</h3>}
 
         
         <br/>
